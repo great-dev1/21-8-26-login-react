@@ -1,0 +1,108 @@
+$green: #227c72;
+$dark: #495057;
+$gray: #74788d;
+
+.login-form {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 475px;
+  min-height: 100vh;
+  padding: 48px;
+  color: $dark;
+  background-color: white;
+
+  .content {
+    width: 100%;
+    font-size: 13px;
+    line-height: 19px;
+
+    .title {
+      font-size: 16.2px;
+      font-weight: 500;
+      line-height: 24px;
+      color: $green;
+    }
+
+    .subtitle {
+      margin-bottom: 24px;
+      color: $gray;
+    }
+
+    .label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+
+    .input-box {
+      width: 100%;
+      height: 36px;
+      padding: 8px 12px;
+      margin-bottom: 16px;
+      border: 1px solid #ced4da;
+      border-radius: 4px;
+    }
+
+    .forgot-link {
+      float: right;
+      color: $gray;
+    }
+
+    .check-box {
+      position: relative;
+      top: 4px;
+      margin: 0 24px 14px 0;
+    }
+
+    input[type="checkbox"] {
+      width: 16px;
+      height: 18px;
+    }
+
+    .login-btn {
+      width: 100%;
+      height: 36px;
+      border-radius: 4px;
+      border: 0;
+      outline: 0;
+      color: white;
+      background-color: $green;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:hover {
+        background-color: $gray;
+      }
+    }
+
+    .social {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 24px;
+      margin-bottom: 50px;
+
+      .text {
+        margin-bottom: 12px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+      }
+
+      .icon {
+        margin: 4px;
+      }
+    }
+
+    .signup-text {
+      text-align: center;
+
+      a {
+        font-weight: 500;
+        color: $green;
+      }
+    }
+  }
+}

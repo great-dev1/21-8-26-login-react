@@ -1,0 +1,78 @@
+$green: #227c72;
+$dark: #495057;
+
+.login-hero {
+  flex-grow: 1;
+  min-height: 100vh;
+  background-color: rgba(208, 211, 213, 0.25098);
+  background-image: url("../../assets/images/hero-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 792px;
+    margin: 70vh auto 0;
+    text-align: center;
+    color: $dark;
+
+    .title {
+      display: flex;
+      align-items: center;
+
+      .quote-mark {
+        margin-right: 18px;
+      }
+
+      .text {
+        font-size: 19.5px;
+        font-weight: 500;
+        line-height: 29px;
+        text-transform: capitalize;
+
+        .green-text {
+          color: $green;
+        }
+      }
+    }
+
+    .detail {
+      margin: 32.5px 0 48px;
+    }
+
+    .name {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: $green;
+    }
+
+    .role {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+      text-transform: capitalize;
+    }
+
+    .nav-dots {
+      display: flex;
+      margin-top: 34px;
+
+      .dot {
+        width: 10px;
+        height: 10px;
+        margin: 0 3.5px;
+        border-radius: 50%;
+        background-color: rgba(86, 89, 100, 0.25098);
+      }
+
+      .green-dot {
+        background-color: $green;
+      }
+    }
+  }
+}
